@@ -1,0 +1,5 @@
+# Force Python as primary language
+*.py linguist-language=Python
+static/* linguist-documentation
+templates/* linguist-documentation
+* linguist-language=Python
