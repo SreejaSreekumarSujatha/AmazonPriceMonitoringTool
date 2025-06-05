@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 37%, rgba(237, 221, 83, 1) 100%);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  font-size: 1rem; /* Base font size */
+}
+
+.container {
+  min-height: 100vh;
+  padding: 2.5rem; /* Padding in rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  gap: 2rem; /* Gap between heading and search box */
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem; /* Font size in rem */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1rem; /* Top margin in rem */
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align to the left */
+  gap: 0.5rem; /* Adjust gap between input, error message, and button */
+  width: 100%;
+  max-width: 30rem; /* max-width in rem */
+  margin-top: 3rem; /* Added margin-top to move the search box down */
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.7rem 1rem; /* Padding in rem */
+  font-size: 1rem; /* Font size in rem */
+  border: 2px solid #2a7b9b;
+  border-radius: 0.5rem; /* Border radius in rem */
+}
+
+.search-box button {
+  padding: 0.5rem 1rem; /* Padding in rem */
+  font-size: 1.4rem; /* Font size in rem */
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 0.5rem; /* Border radius in rem */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  width: auto; /* Set width to auto to avoid the same width as the input field */
+  min-width: 8rem; /* Minimum width for the button */
+  margin: 0 auto; /* Center the button */
+}
+
+.search-box button:hover {
+  background-color: #ff6f61; /* New background color on hover */
+  color: white; /* Change text color on hover */
+  width: auto; /* Maintain auto width */
+  min-width: 10rem; /* Increase the minimum width on hover */
+}
+
+#errorMessage {
+  color: red;
+  font-size: 1rem;
+  margin: 0; /* No extra margin */
+  width: 100%; /* Ensure the error message is the same width as the input */
+  text-align: left; /* Align the error message to the left */
+}
+
+
+.show-history-btn
+{
+white-space:nowrap;
+width:6rem;
+}
+
+.set-threshold-btn
+{
+white-space:nowrap;
+width:6.5rem;
+}
