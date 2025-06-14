@@ -8,8 +8,8 @@ A Flask-based web application that monitors Amazon product prices and sends emai
 Search for products on Amazon and view results in a clean table format with product images, prices, and ratings.
 
 ![Project Screenshot](ECommercePriceMonitoringTool/static/images/img.png)
-(static/images/product-search.png)
-(static/images/product-display.png)
+![Product Search](static/images/product-search.png)
+![Product Display](static/images/product-display.png)
 
 
 ### 📊 Price History
