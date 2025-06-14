@@ -4,8 +4,7 @@ A Flask-based web application that monitors Amazon product prices and sends emai
 
 ## Features
 
-### 🔍 Product Search
-Search for products on Amazon and view results in a clean table format with product images, prices, and ratings.
+
 
 ### 🔍 Product Search
 Search for products on Amazon and view results in a clean table format with product images, prices, and ratings.
