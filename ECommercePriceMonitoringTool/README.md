@@ -7,9 +7,14 @@ A Flask-based web application that monitors Amazon product prices and sends emai
 ### 🔍 Product Search
 Search for products on Amazon and view results in a clean table format with product images, prices, and ratings.
 
-![Project Screenshot](https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/img.png)
-![Product Search](https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/product-search.png)
-![Product Display](https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/product-display.png)
+### 🔍 Product Search
+Search for products on Amazon and view results in a clean table format with product images, prices, and ratings.
+
+<img src="https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/img.png" alt="Project Screenshot" width="600">
+
+<img src="https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/product-search.png" alt="Product Search" width="600">
+
+<img src="https://raw.githubusercontent.com/SreejaSreekumarSujatha/AmazonPriceMonitoringTool/main/static/images/product-display.png" alt="Product Display" width="600">
 
 ### 📊 Price History
 View historical price data with interactive charts to track price trends over time.
